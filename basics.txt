@@ -77,14 +77,17 @@ ls -R --> recursive too see the files inside your current sub directories files
 ls -l --> to see the info about the files and folders
 ls -l files.txt  --> to see particular file info, here you can pass partical name using * like ls -l files*
 ls -l my_fi?e  --> if you need to search name with commen but diffrent in between we can use ?
+more file_name.txt  --> it will show some content and show more option to sell all the data
+less file_name.txt  --> it will show the line one by one if we press the down key and to exit use Q 
+head file_name.txt --> it will print first 10 lines, if we need to custamize head -n 2 file_name.txt to print first 2 lines 
+tail -n 2 file_name.txt --> to see the last 2 line
+nl file_name.txt --> to see the line numbers of a textfile
 
 
 rm file_name.txt  --> to delete the file
 rm path path --> you can add multipule file to delete
 rm -i fileame  --> it will ask the confirmation before delete the file
 rm -r directory_name  --> to delete the directory 
-
-
  
  
 touch file_name.txt  --> to create files
@@ -92,3 +95,7 @@ echo "sample content" > f ileanme Or filename with directory
 ln -s main_file_path  destination_symbolic_filename_path --> to create symbolic lick file for a file
 ln -sf newmain_file_path  destination_symbolic_filename_path   --> if main file is deleted means we can use this and link that old symbolic file
 ln main_file_path  destination_hard_filename_path --> to create hard lick file for a file and to see the info we need to use ls -li for hard file to see inode 
+
+
+vi file_name.txt --> to open a vi editor and to exit use shift + ; and pres Q 
+
