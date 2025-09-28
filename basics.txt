@@ -4,46 +4,26 @@
 
 file system --> a system used by OS to manage files it controls hwo data saved and retrived like our closet
 
-Important Directories 
-
+Important Directories:
 / → Root directory (starting point of everything).
-
 /bin → Essential user commands (ls, cp, cat).
-
 /boot → Files needed to boot Linux (kernel, GRUB, initramfs).
-
 /dev → Device files (hard drives, USB, printers shown as files).
-
 /etc → System configuration files (passwords, network, services).
-
 /home → User home directories (/home/user1, /home/user2).
-
 /lib → Shared libraries (like .dll in Windows).
-
 /lost+found → Recovered files after crashes (each partition has one).
-
 /media → Auto-mounted removable drives (USB, CD/DVD).
-
 /mnt → Temporary mount point for storage (manual mounting).
-
 /opt → Optional software packages installed manually.
-
 /proc → Virtual files showing system/kernel info (e.g., /proc/cpuinfo).
-
 /root → Root user’s personal directory.
-
 /run → Runtime data for processes since boot.
-
 /sbin → System binaries (admin commands like fsck, ifconfig).
-
 /srv → Data for services (like web servers, FTP).
-
 /sys → System and device information (replacement for some /proc info).
-
 /tmp → Temporary files (deleted on reboot).
-
 /usr → User programs and libraries:
-
 /var → Variable data (logs, mail, cache, spool files):
 
 ------------------------Basic cmd's------------------------
