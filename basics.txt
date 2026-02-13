@@ -79,3 +79,6 @@ ln main_file_path  destination_hard_filename_path --> to create hard lick file f
 
 vi file_name.txt --> to open a vi editor and to exit use shift + ; and pres Q 
 
+
+sudo apt install ./our_.deb_fiilename to install package in linux 
+
